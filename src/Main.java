@@ -13,14 +13,14 @@ public class Main {
         System.out.println("Значение переменной e с типом float равно " + e);
         System.out.println("Значение переменной f с типом double равно " + f);
 
-        float task21 = 27.12f;
-        long task22 = 987578965549L;
-        double task23 = 2.786;
+        float numberFloat = 27.12f;
+        long numberLong = 987578965549L;
+        double numberDouble = 2.786;
         // или переенная short = 2786 если в задание имелось целое занчение
-        int task24 = 569;
-        short task25 = -159;
-        long task26 = 27897L;
-        byte task27 = 67;
+        int numberInt = 569;
+        short numberShort = -159;
+        long numberLong2 = 27897L;
+        byte numberByte = 67;
 
         byte teacherLudmila = 23;
         byte teacherAnna = 27;
@@ -55,8 +55,8 @@ public class Main {
         int salaryMasha = 67760;
         int salaryDenis = 83690;
         int salaryKristina = 76230;
-        System.out.println("Маша теперь получает " + (salaryMasha + (salaryMasha / 10)) +" рублей. Годовой доход вырос на " + (salaryMasha / 10) + " рублей");
-        System.out.println("Денис теперь получает " + (salaryDenis + (salaryDenis / 10)) +" рублей. Годовой доход вырос на " + (salaryDenis / 10) + " рублей");
-        System.out.println("Маша теперь получает " + (salaryKristina + (salaryKristina / 10)) +" рублей. Годовой доход вырос на " + (salaryKristina / 10) + " рублей");
+        System.out.println("Маша теперь получает " + (salaryMasha + (salaryMasha / 10)) +" рублей. Годовой доход вырос на " + (salaryMasha + (salaryMasha / 10)*12) + " рублей");
+        System.out.println("Денис теперь получает " + (salaryDenis + (salaryDenis / 10)) +" рублей. Годовой доход вырос на " + (salaryDenis + (salaryDenis / 10)*12) + " рублей");
+        System.out.println("Маша теперь получает " + (salaryKristina + (salaryKristina / 10)) +" рублей. Годовой доход вырос на " + ((salaryKristina + (salaryKristina / 10)*12) + " рублей"));
     }
  }
